@@ -5,7 +5,7 @@ The tasks are expected to be written according Scala 3.3.1 syntax.
 
 ## Preconditions
 
-To work on the tasks in Scala, you need to [Scala CLI](https://scala-cli.virtuslab.org/install/) tool.
+To work on the tasks in Scala, you need to install [Scala CLI](https://scala-cli.virtuslab.org/install/) tool.
 
 **Scala CLI** combines all the features you need to compile the tasks and run tests.
 
@@ -35,7 +35,7 @@ There is also a file called **tests.scala**, which contains tests for your assig
 
 To execute tests run `scala-cli tests .`
 
-You are free to add to add test cases to **tests.scala**
+You are free to add additional test cases to **tests.scala**
 
 Example of passed tests:
 ```shell
@@ -60,7 +60,7 @@ Example of failed tests:
 
 ```shell
 Task1FastSearch:
-==> X Task1FastSearch.int  0.016s munit.ComparisonFailException: /Users/a_reishal/Development/wg/mentoring/scala_tasks/tests.scala:37
+==> X Task1FastSearch.int  0.016s munit.ComparisonFailException: scala/tests.scala:37
 36:        val seq = (10 to 1000).toIndexedSeq
 37:        assertEquals(fastSearch(seq, 10), Some(1))
 38:        assertEquals(fastSearch(seq, 9), None)
